@@ -10,7 +10,7 @@ public class GreetingApp{
 
     protected static void greet(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your name: ");
+        System.out.println("Please enter your surname: ");
         String name = scanner.next();
         System.out.println("Welcome " + name + ", to the world of Java programming!");
     }
